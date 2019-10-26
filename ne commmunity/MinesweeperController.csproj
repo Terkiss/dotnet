@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>ne_commmunity</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Minesweeper">
+      <HintPath>..\..\..\Minesweeper.dll</HintPath>
+    </Reference>
+    <Reference Include="MinesweeperHost">
+      <HintPath>..\..\..\MinesweeperHost.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
