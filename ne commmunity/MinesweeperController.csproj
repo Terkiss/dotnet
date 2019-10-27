@@ -11,10 +11,7 @@
 
   <ItemGroup>
     <Reference Include="Minesweeper">
-      <HintPath>..\..\..\Minesweeper.dll</HintPath>
-    </Reference>
-    <Reference Include="MinesweeperHost">
-      <HintPath>..\..\..\MinesweeperHost.exe</HintPath>
+      <HintPath>..\dll Library\Minesweeper.dll</HintPath>
     </Reference>
   </ItemGroup>
 

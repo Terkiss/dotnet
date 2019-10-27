@@ -35,8 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Minesweeper">
-      <HintPath>..\..\..\Minesweeper.dll</HintPath>
+    <Reference Include="Minesweeper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll Library\Minesweeper.dll</HintPath>
     </Reference>
     <Reference Include="MinesweeperController">
       <HintPath>..\ne commmunity\bin\Debug\netstandard2.0\MinesweeperController.dll</HintPath>
